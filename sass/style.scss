@@ -221,3 +221,22 @@ section {
     }
 }
 
+/*Portfolio Bootrsap*/
+
+.portfolio {
+    background-color: $color-light-gray;
+
+    .card-work {
+        font-family: $font-header;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 700;
+        margin-bottom: -8px;
+    }
+
+    .card-subtitle {
+        font-family: $font-italic;
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+}
