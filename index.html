@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Golden Studio - Nice 2 meet U</title>
 
         <script src="https://kit.fontawesome.com/d463779f56.js" crossorigin="anonymous"></script>
@@ -54,7 +56,7 @@
       <div class="container">
         <h1 class="section-title">Services</h1>
         <h2 class="section-subtitle">Adipiscing tristique risus nec feugiat in.</h2>
-        <div class="row">
+        <div class="flex-container">
           
           <div class="icon">
             <i class="fa-solid fa-frog"></i>
@@ -81,68 +83,69 @@
     <!--Portfolio Bootstrap-->
 
     <section class="portfolio">
-      <div class="container">
+      <div class="container justify-content-center">
         <h1 class="section-title">our portfolio</h1>
         <h2 class="section-subtitle">Risus feugiat in ante metus dictum.</h2>
         
-        <div class="row">
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-auto">
 
-          <div class="col-sm-12 col-md-6 col-lg-4 pb-5">
-            <div class="card border-0" style="width: 18rem;">
+          <div class="col d-flex justify-content-center d-flex align-items-center text-center pb-5">
+            <div class="card border-0" style="width: 289px;">
               <img class="card-img-top" src="images/Image-row-01.png" alt="ebony">
               <div class="card-body">
-                <p class="card-work">Ebony & Ivory</p>
-                <p class="card-subtitle">Branding</p>
+                <p class="card-title">Ebony & Ivory</p>
+                <p class="card-text">Branding</p>
               </div>
             </div>
           </div>
+    
 
-          <div class="col-sm-12 col-md-6 col-lg-4 pb-5">
-            <div class="card border-0" style="width: 18rem;">
+          <div class="col d-flex justify-content-center d-flex align-items-center text-center pb-5">
+            <div class="card border-0" style="width: 289px;">
               <img class="card-img-top" src="images/Image-row-02.png" alt="stationary">
               <div class="card-body">
-                <p class="card-work">Smart stationary</p>
-                <p class="card-subtitle">Print Design</p>
+                <p class="card-title">Smart stationary</p>
+                <p class="card-text">Print Design</p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-6 col-lg-4 pb-5">
-            <div class="card border-0" style="width: 18rem;">
+          <div class="col d-flex justify-content-center d-flex align-items-center text-center pb-5">
+            <div class="card border-0" style="width: 289px;">
               <img class="card-img-top" src="images/Image-row-03.png" alt="poster">
               <div class="card-body">
-                <p class="card-work">Clever poster</p>
-                <p class="card-subtitle">Print Design</p>
+                <p class="card-title">Clever poster</p>
+                <p class="card-text">Print Design</p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-6 col-lg-4 pb-5">
-            <div class="card border-0" style="width: 18rem;">
+          <div class="col d-flex justify-content-center d-flex align-items-center text-center pb-5">
+            <div class="card border-0" style="width: 289px;">
               <img class="card-img-top" src="images/Image-row-04.png" alt="ebony">
               <div class="card-body">
-                <p class="card-work">Vinyl record</p>
-                <p class="card-subtitle">Product mock-up</p>
+                <p class="card-title">Vinyl record</p>
+                <p class="card-text">Product mock-up</p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-6 col-lg-4 pb-5">
-            <div class="card border-0" style="width: 18rem;">
+          <div class="col d-flex justify-content-center d-flex align-items-center text-center pb-5">
+            <div class="card border-0" style="width: 289px;">
               <img class="card-img-top" src="images/Image-row-05.png" alt="stationary">
               <div class="card-body">
-                <p class="card-work">Treehouse Template</p>
-                <p class="card-subtitle">Web design</p>
+                <p class="card-title">Treehouse Template</p>
+                <p class="card-text">Web design</p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-6 col-lg-4 pb-5">
-            <div class="card border-0" style="width: 18rem;">
+          <div class="col d-flex justify-content-center d-flex align-items-center text-center pb-5">
+            <div class="card border-0" style="width: 289px;">
               <img class="card-img-top" src="images/Image-row-06.png" alt="poster">
               <div class="card-body">
-                <p class="card-work">Burned logo</p>
-                <p class="card-subtitle">Branding</p>
+                <p class="card-title">Burned logo</p>
+                <p class="card-text">Branding</p>
               </div>
             </div>
           </div>
@@ -154,18 +157,16 @@
     <!--Footer-->
 
     <footer>
-      <div class="ft-content"> 
-        <div class="ft-copyright">
+      <div class="ft-row"> 
+        <div class="column-left">
           <p>&copy; Copyright 2022 Golden Studio</p>
         </div>
 
-        <div class="ft-social">
-          <ul>
-            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
-          </ul>
+        <div class="column-right">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
         </div>
       </div>
       
