@@ -13,7 +13,7 @@ $font-italic: 'Merriweather', serif;
 
 $transition: all 0.6s;
 
-/*Global*/ 
+/*Global*/
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -203,7 +203,7 @@ section {
             font-weight: 200;
             padding: 0 15px 30px;
             color: $color-gray;
-    
+
         }
 
         i {
@@ -266,7 +266,7 @@ section {
 .ft-row {
     display: flex;
     flex-wrap: wrap;
-    
+
     .column-left {
         flex: 45%;
         height: 120px;
@@ -279,7 +279,7 @@ section {
             margin-left: 85px;
         }
     }
-    
+
     .column-right {
         flex: 55%;
         height: 120px;
@@ -289,7 +289,7 @@ section {
             margin-right: 10px;
             float: left;
         }
-        
+
 
         i {
             display: inline-block;
@@ -305,7 +305,7 @@ section {
             &:hover {
                 background-color: $color-yellow;
                 color: $color-dark;
-            } 
+            }
         }
     }
 }
@@ -321,7 +321,7 @@ section {
     .hero
     .hero-inner {
         padding-top: 35px;
-    
+
         .hero-title {
             font-size: 20px;
         }
@@ -340,7 +340,7 @@ section {
     .flex-container {
       flex-direction: column;
       align-items: center;
-      
+
       .icon {
           width: 70%;
 
